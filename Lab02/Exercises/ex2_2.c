@@ -32,6 +32,7 @@ int main() {
         putchar(str[len - 1]);
 
     putchar('\n');
+    fre(str);
 
     return 0;
 
