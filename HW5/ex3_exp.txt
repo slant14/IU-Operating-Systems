@@ -1,0 +1,25 @@
+Brief explanation of the findings:
+
+m=1:
+Baseline, all computations run on one thread.
+
+m=2:
+The number of threads is doubled, making the program run *almost* twice as fast.
+Due to some overhead from thread management, it is not exactly twice as fast as it would ideally be.
+CPU time is mostly the same as baseline.
+
+m-4:
+The number of threads is quadrupled making the program run almost 4 times as fast compared to m=1 plus some overhead.
+CPU time is mostly the same as baseline.
+
+m=10:
+With 10 threads there is still some improvement, 
+but the program only runs around 5 times faster as the baseline due to significantly increased overhead from threads competing for CPU time.
+CPU time increased by around 20% compared to baseline
+
+m=100:
+With 100 threads the improvement becomes insignificant compared to overhead.
+The program runs around 10 times faster, but at the price of double the CPU time compared to baseline.
+
+The most optimal number of threads here is 4, since after that the returns begin to diminish.
+
