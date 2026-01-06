@@ -1,0 +1,37 @@
+In chrooted directory:
+file1
+bin
+lost+found
+lib
+ex1
+.
+..
+file2
+
+In default directory:
+root
+usr
+snap
+dev
+srv
+sys
+etc
+lib64
+opt
+lib32
+home
+bin
+boot
+sbin
+proc
+.
+..
+tmp
+var
+run
+media
+lost+found
+recovery
+lib
+libx32
+mnt
