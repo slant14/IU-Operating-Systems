@@ -1,21 +1,3 @@
-allocate 1001 5
-allocate 1002 8
-allocate 1003 3
-clear 1002
-allocate 2001 6
-allocate 2002 2
-clear 1001
-allocate 3001 4
-allocate 3002 1
-clear 1003
-allocate 4001 10
-clear 2001
-allocate 5001 6
-allocate 6001 3
-clear 4001
-allocate 7001 9
-allocate 8001 2
-clear 3001
-allocate 9001 4
-end
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:4c4503f553c39e5c9a57d707dc15f440d6f8194fb7f014bbcb11e7bb722a6799
+size 280
